@@ -73,6 +73,7 @@ public class FallingLetter {
 	public void resetletter()
 	{
 		int randomNum = random.nextInt(26);
+		
 		int sizeRand = random.nextInt(60) + 80;
 		mLetter = randomNum +'a';
 		this.image = BitmapFactory.decodeResource(c.getResources(), Constants.selectLetter(randomNum));
