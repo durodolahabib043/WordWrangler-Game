@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">WordWrangle</string>
+ <string name="lbl_sound">Sound</string>
+ 
+ 
+ 
+ <string name="Instruction">Instruction  </string>
+ 
+ 
+  <string name="scope">  1.   Player is expected to start from level one. \n2. You can not play the next level if you 
+      dont unlock the previous level by clicking on it. \n3. Click on the ALPHABET that makes up the word.  </string>
+ 
+ 
+ 
+</resources>

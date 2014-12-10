@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_start" >
+
+   
+
+    <ImageButton
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/button_start" 
+        android:background="@null"/>
+
+    <ImageButton
+        android:id="@+id/imgbtn_sound"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/btn_start"
+        android:src="@drawable/sound" 
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="17dp"
+        android:text="@string/lbl_sound"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_mute"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/imgbtn_sound"
+        android:layout_alignRight="@+id/lbl_welcome"
+        android:src="@drawable/mute" 
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/infobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:src="@drawable/button_info"
+        android:background="@null" />
+
+    <LinearLayout 
+        android:id="@+id/adholder"
+        android:orientation="horizontal"    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
